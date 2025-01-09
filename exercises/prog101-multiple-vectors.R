@@ -64,6 +64,9 @@ longest_duration
 max(instrument_durations, na.rm = TRUE)
 max(instrument_durations, na.rm = FALSE)
 
+#we need the index, not the value
+
+site[which.max(instrument_durations)]
 
 
 
