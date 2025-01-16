@@ -18,4 +18,4 @@ read.csv()
 boxplot()
 #generate a box plot
 startsWith()
-#generates something starting with your variable
+#returns T/F about if something starts with something. ("", "")

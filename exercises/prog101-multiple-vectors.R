@@ -4,7 +4,7 @@ instrument_deployed_hm <- c(730, 915, 1345)
 #time in hr and min
 instrument_deployed_h <- floor(instrument_deployed_hm / 100)
 ?floor
-#defining hr from hr and min
+#changes 7.3 to 7 so we get the hr from the hr:min
 instrument_deployed_hdec <- (instrument_deployed_hm %% 100 / 60)
 #defining the min as a decimal of hr from hr and min
 instrument_deployed <- instrument_deployed_h + instrument_deployed_hdec

@@ -8,13 +8,13 @@ rect_area <- rect_length * rect_width
 triangle_area <- 1/2 * base * height
 cylinder_volume <- pi * r^2 * h
 
-  # What are the errors in these expressions?
-  speed_m_s <- distance_m / time_s
-  #error was * instead of /
+# What are the errors in these expressions?
+speed_m_s <- distance_m / time_s
+# error was * instead of /
 acceleration_m_s2 <- speed_m_s / time_s
-#needed _ between words of variables
-#might want to change "time_s" if you want to use different numbers for each
-#equation
+# needed _ between words of variables
+# might want to change "time_s" if you want to use different numbers for each
+# equation
 force_N <- mass * acceleration_m_s2
 #<- not < and * not +
 

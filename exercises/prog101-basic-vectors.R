@@ -12,6 +12,10 @@ length(x^2)
 max(x)
 length(max(x))
 #=1
+unique(x)
+length(unique(x))
+#=10
+
 
 # LETTERS is a built-in vector containing the letters of the alphabet,
 # capitalized.
@@ -20,10 +24,18 @@ LETTERS[1:10]
 
 # Use non-contiguous indexing to pull out the 5th, 10th, and 15th letters.
 LETTERS[c(5, 10, 15)]
+# c is short for combine, it creates vectors
+letter_idx <- c(5, 10, 15)
+LETTERS[letter_idx]
+LETTERS[letter_idx - 1]
+# this gives us 4, 9, 14 bcs it subtracts one from the index
 
 # Convert the last ten letters of the alphabet to lower case.
 tolower(LETTERS[17:26])
 length(tolower(LETTERS[17:26]))
+
+#can also use:
+tolower(LETTERS[(length(LETTERS)) - 10:length(LETTERS)])
 
 #can I use something like negative indexing to get the last values?
 
